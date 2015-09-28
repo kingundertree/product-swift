@@ -1,0 +1,59 @@
+{
+  "name": "FFNetwork",
+  "version": "1.0",
+  "summary": "",
+  "description": "",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "homepage": "https://github.com/kingundertree/FFNetworking",
+  "license": "MIT (example)",
+  "authors": {
+    "徐山": "kingundertree@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kingundertree/FFNetworking.git"
+  },
+  "source_files": [
+    "FFNetwork",
+    "FFNetwork/*.{h,m}"
+  ],
+  "subspecs": [
+    {
+      "name": "Assist",
+      "source_files": "FFNetwork/Assist/*.{h,m}"
+    },
+    {
+      "name": "Category",
+      "source_files": "FFNetwork/Category/*.{h,m}",
+      "frameworks": "Security"
+    },
+    {
+      "name": "Components",
+      "source_files": "FFNetwork/Components/*.{h,m}",
+      "frameworks": "SystemConfiguration"
+    },
+    {
+      "name": "Debug",
+      "source_files": "FFNetwork/Debug/*.{h,m}"
+    },
+    {
+      "name": "FFNetService",
+      "source_files": "FFNetwork/FFNetService/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "ServiceConfig",
+          "source_files": "FFNetwork/FFNetService/ServiceConfig/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "FFResponse",
+      "source_files": "FFNetwork/FFResponse/*.{h,m}"
+    },
+    {
+      "name": "FFSignatureGenerator",
+      "source_files": "FFNetwork/FFSignatureGenerator/*.{h,m}"
+    }
+  ]
+}

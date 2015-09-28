@@ -1,0 +1,18 @@
+{
+  "name": "MultiFunctionCell",
+  "version": "0.0.1",
+  "summary": "",
+  "description": "",
+  "homepage": "https://github.com/kingundertree/MultiFunctionCell",
+  "license": "MIT (example)",
+  "authors": {
+    "徐山": "kingundertree@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kingundertree/MultiFunctionCell.git"
+  },
+  "source_files": [
+    "MultiFunctionCell",
+    "XZMultiFunctionCell/MultiFunctionCell/*.{h,m}"
+  ]
+}
